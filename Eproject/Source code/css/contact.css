@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo img{
+    max-width: 50px;
+}
+
+
+
+/* footer css */
+
+
+.list-unstyled a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.list-unstyled a:hover{
+    
+    color: blueviolet;
+}
+
+
+
+
+.list-unstyled{
+    padding-top: 30px;
+    margin-left: 110px;
+}
+
+
+
+.footer-bottom{
+    color: white;
+    margin-left: -305px;
+    padding-top: 60px;
+}
+
+
+
+
+
+body{
+    background-image: url(img/bg02.png);
+    background-color:aliceblue;
+  }
+  .contact-bg
+  {
+      background-image: url('img/contact.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% , center;
+      min-height: 400px;
+  }
+  .contact-form-data h2
+  {
+      border-bottom: 5px double rgb(163, 163, 163);
+      padding-bottom: 10px;
+  }
+  
+  .outline input:focus,
+  textarea:focus
+  {
+      border: none;
+      outline: none;
+  }
+  
+  .form-btn
+  {
+      text-align: center;
+      margin-top: 50px;
+  }
+  .submit-btn
+  {
+      padding: 8px 20px;
+      outline: none;
+      border: 2px solid black;
+      background:maroon;
+      color: whitesmoke;
+      font-family: sans-serif;
+      transition: 0.3s;
+      border-radius: 5px;
+  }
+  .submit-btn:hover
+  {
+      color: rgb(0, 0, 0);
+      background-color: #383837;
+      border: 2px solid #000000;
+  }
+  .icon-hover
+  {
+      font-size: 42px;
+      transition: 0.3s;
+      padding: 20px 14px;
+      
+      border-radius: 5px;
+      border: 2px solid black;
+  }
+  
+  .icon-wrp:hover .icon-hover 
+  {
+      background-color:maroon;
+      color: white;
+      border: none;
+      border: 2px solid #000000;
+  
+  }
+  
+  .rating {
+    display: inline-block;
+  }
+  
+  .star {
+    font-size: 25px;
+    cursor: pointer;
+    color: #ccc;
+    display: inline-block;
+  }
+  
+  .star:hover,
+  .star:hover ~ .star,
+  .star.active,
+  .star.active ~ .star {
+    color: #FFD700;
+  }
+
+
+
+
+
+
+
+/* ticker */
+
+.ticker-wrap {
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+.ticker-wrap .ticker-move {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    animation: ticker-scroll 20s linear infinite;
+}
+.ticker-wrap .ticker-move li {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 20px;
+}
+@keyframes ticker-scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(211, 211, 211);
+  }
+  h1{
+    color:rgb(0, 0, 0);
+    margin-left:640px;
+    font-size:60px;
+    text-decoration: underline;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  p{
+    color: snow;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .card-body{
+    background-color: black; 
+    
+  }
+  .card{
+    margin-top: 20px;
+    font-weight: bolder;
+    box-shadow: 2px 2px 10px black;
+    margin-left: 45px;
+    margin-right: -100px;
+
+  }
+
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo img{
+    max-width: 50px;
+}
+
+
+
+/* footer css */
+
+
+.list-unstyled a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.list-unstyled a:hover{
+
+    color: blueviolet;
+}
+
+
+
+
+.list-unstyled{
+    padding-top: 30px;
+    margin-left: 110px;
+}
+
+
+
+.footer-bottom{
+    color: white;
+    margin-left: -305px;
+    padding-top: 60px;
+}
+
+
+
+
+/* ticker */
+
+.ticker-wrap {
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+.ticker-wrap .ticker-move {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    animation: ticker-scroll 20s linear infinite;
+}
+.ticker-wrap .ticker-move li {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 20px;
+}
+@keyframes ticker-scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
